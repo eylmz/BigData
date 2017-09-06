@@ -1,0 +1,86 @@
+31. Temmuz
+
+Bugün havelsandaki stajýmýn ilk günü. 
+Öncelikle benle birlikte ayný tarihte baþlayan yaklaþýk 50 stajyerle birlikte havelsan ve bölümleri (Siber Güvenlik, Komuta Kontrol, Eðitim ve Simülasyon gibi) gezdirildi.
+Daha sonra bir toplantý salonunda havelsan ýn ne olduðu neler yaptýðý gibi bilgiler verildi.
+
+Öðle arasýndan sonra havelsan da ki en önemli konulardan biri olan veri güvenliði hakkýnda eðitim verildi.
+
+
+----
+1. Aðustos 
+
+Bugünde güne yine bir eðitim ile baþladýk. Öðlene kadar iþ saðlýðý ve güvenliði hakkýnda bilgilendirildik.
+Öðleden sonra stajyerlerin stajlarýný hangi departmanlarda yapacaðý açýklandý ve ilgili departmanlara yönlendirildik.
+
+Burada staj koçumuz hangi konuda çalýþacaðýmýzý ve staj süremiz boyunca gün gün neler üzerinde çalýþacaðýmýzý planladýk.
+
+Big Data üzerinde çalýþacaktýk ve Hadoop öðrenecektik. 
+
+
+----
+2. Aðustos 
+
+Henüz birþeylere baþlamadan önce neyin ne olduðunu öðrenmemiz gerekiyor.
+Big Data, Data Scientist, Hadoop gibi terimleri araþtýrdýk.
+
+Big data, ...
+
+Data Scientist, ...
+
+Hadoop, ...
+
+----
+3. Aðustos
+
+Kullanacaðýmýz bilgisayarlara yazýlým kurma yetkimiz olmadýðýndan sanal bilgisayarlar üzerinde çalýþacaktýk.
+2 sanal bilgisayar oluþturup Centos 6 iþletim sistemi kurulumu yaptýk.
+
+Hadoop ve bileþenleri kurmak için linux komutlarýný öðrendik.
+
+----
+4. Aðustos 
+
+Hadoop, Java ile geliþtirilmiþ bir kütüphane olduðundan dolayý çalýþmasý için öncelikle Java nýn kurulu olmasý gerekiyordu.
+Java kurulumu yapýp ardýndan Hadoop kurulumu yapacaktýk.
+Java kurulumunda bir sorun yaþamadýk ama hadoop kurulumunda hangi java sürümü ile çalýþtýðýmýz çok önemliydi.
+Önce hadoop un 3.x sürümünü kurmayý denedim ancak daha kararlý sürüm olmamasýndan dolayý mý bilmiyorum ama kuramadým.
+
+Hadoop 2.x sürümünde bir sorun olmadan kurulumu yaptýk ve hadoop servislerinin doðru çalýþýp çalýþmadýðýný kontrol ettik.
+
+----
+7 Aðustos
+
+Hadoop kurulumunu düzgünce yaptýðýmýza göre artýk HDFS ye nasýl veri aktarýlacaðýný nasýl veri alýnacaðý gibi komutlarý öðrenmeye baþladýk.
+HDFS komutlarý linux daki dosya iþlemlerinin neredeyse birebir aynýsýydý. Ýnternetten bulduðumuz test verilerini hdfs ye aktarýp
+hdfs komutlarýný denedik. Bu haliyle hadoop üzerinde sadece dosya kopyalama taþýma gibi iþlemlerden baþka birþey yapamýyorduk.
+
+Artýk verileri filtreleyip üzerlerinde iþlem yapabilmek için MapReduce olayýný araþtýrmamýz gerekiyordu.
+
+MapReduce, Java ve Python gibi dillerle yazýlabildiði gibi Apache Pig, Apache Hive vb. yardýmcý araçlarda kullanýlabiliyordu.
+
+----
+
+8 Aðustos
+
+Sanal bilgisayara Java ve Python yazabilmek için gerekli yazýlýmlarý kurduk.
+Java için Intellij IDEA ve Python için PyCharm idelerini kurdum.
+
+PyCharm'ýn güzel bir özelliði ise Python öðrenmeye baþlamak için üzerinde basit anlatýmlar ve örneklerle birlikte gelmesiydi.
+Genel syntax ýný öðrenmek ve basit uygulamalar için gayet yeterli.
+
+----
+9 Aðustos
+
+Java ve Python ile MapReduce geliþtirmek daha zor olduðu için yardýmcý araçlarý araþtýrmaya baþladýk.
+Bugün apache hive kütüphanesini kurdum. HQL adýný verdiði SQL e çok benzeyen bir dil ile verilere eriþmek ve üzerinde iþlem yapmak çok kolaydý.
+
+----
+
+10 Aðustos
+
+Bir diðer MapReduce geliþtirme yöntemlerinden olan Apache Pig üzerinde çalýþmaya baþladým.
+Hadoop kurulumunda yaþadýðým sorunu bunda da yaþadým. Son sürümü tam olarak düzgün çalýþmýyordu.
+1.x sürümünde sorun yaþamadým ve onu kurarak devam ettim.
+
+Hive gibi bununda kendine özgü bir dili vardý. 
